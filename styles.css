@@ -1,0 +1,140 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #ffffff;
+  color: #000;
+  margin: 0;
+  padding: 20px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  margin-right: 20px;
+}
+
+nav a {
+  color: #D3D930;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-decoration: none;
+  font-size: 20px;
+  transition: color 0.5s; /* Adicionando uma transição de cor de 0.5 segundos */
+}
+
+nav a:hover {
+  color: #5B8C2A;
+}
+
+header {
+  text-align: center;
+}
+
+header img {
+  display: block;
+  max-width: 100%;
+  margin: 20px auto;
+}
+
+.section-video {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: nowrap; /* Para que os elementos fiquem em linha quando a tela for menor */
+  margin: 60px;
+  padding: 4px;
+}
+
+.section-video .video,
+.section-video .texto {
+  flex-basis: 100%; /* Alterado para que ocupem 100% da largura em telas menores */
+}
+
+.video {
+  padding-right: 20px;
+}
+
+.video iframe {
+  width: 100%;
+  height: 315px;
+}
+
+.texto {
+  text-align: justify;
+}
+
+.texto p {
+  font-size: 20px;
+  color: #F2A413;
+}
+
+.section-cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: nowrap; /* Para que os elementos fiquem em linha quando a tela for menor */
+  margin: 20px;
+  padding: 20px;
+}
+
+.section-cards .card {
+  flex-basis: calc(33.33% - 40px); /* Para que as divs fiquem lado a lado com espaço */
+  height: 400px; /* Altura fixa dos cards */
+}
+
+.card {
+  padding: 20px;
+  border: #F2A413 solid 1px;
+  margin: 10px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+/* Definir o tamanho fixo para as imagens */
+.card img {
+  width: 100%; /* A imagem ocupará 100% da largura do card */
+  height: 200px; /* Altura fixa para as imagens dentro do card */
+  object-fit: cover; /* Manter a proporção da imagem, preenchendo todo o espaço do container */
+  border-radius: 5px; /* Arredondar os cantos da imagem */
+}
+
+.card p {
+  color: #A4B3BF;
+}
+
+footer {
+  text-align: center;
+  color: #A9BF04;
+  padding: 10px;
+}
+
+/* Media query para dispositivos com largura menor ou igual a 768px */
+@media (max-width: 768px) {
+  .section-video .video,
+  .section-video .texto {
+    flex-basis: 100%;
+  
+  }
+
+  .section-cards .card {
+    flex-basis: 100%; /* Alterado para que os cards ocupem 100% da largura em telas menores */
+    flex-direction: column; /* Alterado para coluna em dispositivos menores */
+  }
+
+  .section-video,
+  .section-cards {
+    flex-direction: column; /* Alterado para coluna em dispositivos menores */
+  }
+
+  .texto p {
+    font-size: 16px; /* Reduzindo o tamanho da fonte para melhorar a leitura */
+  }
+}
