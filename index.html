@@ -1,59 +1,34 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cardápio</title>
-    <link rel="stylesheet" type="text/css" href="styles.css">
+    <title>Cardápio de Café da Manhã</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <nav>
-        <ul class="menu-esquerdo">
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Sobre</a></li>
-          <li><a href="#">Receitas</a></li>
-        </ul>
-        <ul class="menu-direito">
-          <li><a href="#">Pedidos</a></li>
-          <li><a href="#">Cadastro</a></li>
-        </ul>
-      </nav>
-    
-      <header>
-        <img src="./img/banner.jpg" alt="Banner">
-      </header>
-    
-      <section class="section-video">
-        <div class="video">
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/vYjrGxlKjYo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <div class="menu-container">
+        <h1>Cardápio de Café da Manhã</h1>
+        <div class="menu-items">
+            <!-- Item do menu 1 -->
+            <div class="menu-item">
+                <img src="seu_link_de_imagem_aqui" alt="Café da Manhã 1">
+                <h2>Café da Manhã 1</h2>
+                <p>Descrição do Café da Manhã 1.</p>
+                <p class="price">R$ 10,00</p>
+            </div>
+            
+            <!-- Item do menu 2 -->
+            <div class="menu-item">
+                <img src="seu_link_de_imagem_aqui" alt="Café da Manhã 2">
+                <h2>Café da Manhã 2</h2>
+                <p>Descrição do Café da Manhã 2.</p>
+                <p class="price">R$ 8,50</p>
+            </div>
+            
+            <!-- Adicione mais itens de menu conforme necessário -->
         </div>
-        <div class="texto">
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-             Praesent sagittis, neque a sollicitudin rhoncus, libero arcu convallis elit,
-              eu varius urna massa ut felis. Fusce porta in augue cursus convallis. 
-              Integer at facilisis quam. Cras condimentum rutrum ex. Nunc at sem odio.
-               Cras luctus sit amet tortor tempus suscipit. Nam vel felis libero. Donec vel arcu et orci iaculis lacinia. Nulla sed sapien ac diam imperdiet luctus. Nulla nulla nisl, gravida ac quam in, dignissim convallis magna. Curabitur dolor tellus, iaculis sit amet iaculis eget, lobortis quis eros.</p>
-        </div>
-      </section>
-    
-      <section class="section-cards">
-        <div class="card">
-          <img src="./img/imagem1.jpg" alt="Imagem 1">
-          <p>Duis eu laoreet neque. Nam interdum feugiat malesuada. Aliquam congue consectetur enim, a pulvinar ex vulputate nec. Suspendisse semper tellus orci, at viverra orci semper sed. Quisque non pulvinar erat.</p>
-        </div>
-        <div class="card">
-          <img src="./img/imagem2.jpg" alt="Imagem 2">
-          <p>Duis eu laoreet neque. Nam interdum feugiat malesuada. Aliquam congue consectetur enim, a pulvinar ex vulputate nec. Suspendisse semper tellus orci, at viverra orci semper sed. Quisque non pulvinar erat.</p>
-        </div>
-        <div class="card">
-          <img src="./img/imagem3.jpg" alt="Imagem 3">
-          <p>Duis eu laoreet neque. Nam interdum feugiat malesuada. Aliquam congue consectetur enim, a pulvinar ex vulputate nec. Suspendisse semper tellus orci, at viverra orci semper sed. Quisque non pulvinar erat.</p>
-        </div>
-      </section>
-    
-      <footer>
-        <p>Feito por Nathállia Cabral - ElasEmTech - 2023</p>
-      </footer>
-    
+    </div>
+    <script src="script.js"></script>
 </body>
 </html>

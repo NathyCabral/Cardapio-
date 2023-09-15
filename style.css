@@ -1,0 +1,55 @@
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+}
+
+.menu-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    color: #e74c3c;
+}
+
+.menu-items {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    justify-items: center;
+}
+
+/* Estilos do item do menu */
+.menu-item {
+    background-color: #363636;
+    color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.menu-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.menu-item h2 {
+    margin-top: 10px;
+    font-size: 24px;
+}
+
+.menu-item p {
+    font-size: 16px;
+}
+
+.price {
+    font-size: 20px;
+    margin-top: 10px;
+    color: #e74c3c;
+}
