@@ -1,83 +1,131 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cardápio</title>
-    <link rel="stylesheet" type="text/css" href="styles.css" />
-  </head>
-  <body>
-    <nav>
-      <ul class="menu-esquerdo">
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Sobre</a></li>
-        <li><a href="#">Receitas</a></li>
-      </ul>
-      <ul class="menu-direito">
-        <li><a href="#">Pedidos</a></li>
-        <li><a href="#">Cadastro</a></li>
-      </ul>
-    </nav>
-
-    <header>
-      <h1>conheça nosso cardápio</h1>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="icon" type="imagem/png" href="./img/icon.png" />
+</head>
+<body>
+    <header class="header">
+        <div class="navbar">
+            <div class="logo">
+                <img src="./img/logo.png" alt="Logo iFood">
+            </div>
+            <ul class="menu">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Sobre</a></li>
+                <li><a href="#">Receitas</a></li>
+                <li><a href="#">Pedidos</a></li>
+                <li><a href="#">Cadastro</a></li>
+            </ul>
+        </div>
+        <h1>Conheça nosso cardápio</h1>
     </header>
 
     <section class="section-video">
-      <div class="video">
-        <iframe
-          width="560"
-          height="315"
-          src="https://www.youtube.com/embed/vYjrGxlKjYo"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen
-        ></iframe>
-      </div>
-      <div class="texto">
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent
-          sagittis, neque a sollicitudin rhoncus, libero arcu convallis elit, eu
-          varius urna massa ut felis. Fusce porta in augue cursus convallis.
-          Integer at facilisis quam. Cras condimentum rutrum ex. Nunc at sem
-          odio. Cras luctus sit amet tortor tempus suscipit. Nam vel felis
-          libero. Donec vel arcu et orci iaculis lacinia. Nulla sed sapien ac
-          diam imperdiet luctus. Nulla nulla nisl, gravida ac quam in, dignissim
-          convallis magna. Curabitur dolor tellus, iaculis sit amet iaculis
-          eget, lobortis quis eros.
-        </p>
-      </div>
+        <div class="video-container">
+            <iframe
+                width="560"
+                height="315"
+                src="./img/cupvideo.mp4"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+            ></iframe>
+        </div>
+        <div class="text-container">
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent
+                sagittis, neque a sollicitudin rhoncus, libero arcu convallis elit, eu
+                varius urna massa ut felis. Fusce porta in augue cursus convallis.
+                Integer at facilisis quam. Cras condimentum rutrum ex. Nunc at sem
+                odio. Cras luctus sit amet tortor tempus suscipit. Nam vel felis
+                libero. Donec vel arcu et orci iaculis lacinia. Nulla sed sapien ac
+                diam imperdiet luctus. Nulla nulla nisl, gravida ac quam in, dignissim
+                convallis magna. Curabitur dolor tellus, iaculis sit amet iaculis
+                eget, lobortis quis eros.
+            </p>
+        </div>
     </section>
 
     <section class="section-cards">
+       
+
+
       <div class="card">
-        <img src="./img/imagem1.jpg" alt="Imagem 1">
-        <p>Duis eu laoreet neque. Nam interdum feugiat malesuada.</p>
+        <img src="./img/1 (1).jpg" alt="Comida 1">
+        <p> Cupcake Celestial de Morango</p>
         <p class="card-price">$15.99</p>
         <button class="add-to-cart">Adicionar ao Carrinho</button>
-      </div>
-      <div class="card">
-        <img src="./img/imagem2.jpg" alt="Imagem 2">
-        <p>Duis eu laoreet neque. Nam interdum feugiat malesuada.</p>
-        <p class="card-price">$12.99</p>
-        <button class="add-to-cart">Adicionar ao Carrinho</button>
-      </div>
-      <div class="card">
-        <img src="./img/imagem3.jpg" alt="Imagem 3">
-        <p>Duis eu laoreet neque. Nam interdum feugiat malesuada.</p>
-        <p class="card-price">$9.99</p>
-        <button class="add-to-cart">Adicionar ao Carrinho</button>
-      </div>
-      <div class="card">
-        <img src="./img/imagem1.jpg" alt="Imagem 1">
-        <p>Duis eu laoreet neque. Nam interdum feugiat malesuada.</p>
+    </div>
+    
+    <div class="card">
+        <img src="./img/1 (2).jpg" alt="Comida 1">
+        <p> Cupcake Mágico de Chocolate Negro</p>
         <p class="card-price">$15.99</p>
         <button class="add-to-cart">Adicionar ao Carrinho</button>
-      </div>
+    </div>
+    
+    <div class="card">
+        <img src="./img/1 (3).jpg" alt="Comida 1">
+        <p> Cupcake Alquimia de Limão</p>
+        <p class="card-price">$15.99</p>
+        <button class="add-to-cart">Adicionar ao Carrinho</button>
+    </div>
+    
+    <div class="card">
+        <img src="./img/1 (4).jpg" alt="Comida 1">
+        <p> Cupcake Veludo Rosa Encantado</p>
+        <p class="card-price">$15.99</p>
+        <button class="add-to-cart">Adicionar ao Carrinho</button>
+    </div>
+    
+    <div class="card">
+        <img src="./img/1 (5).jpg" alt="Comida 1">
+        <p> Cupcake Brisa de Baunilha</p>
+        <p class="card-price">$15.99</p>
+        <button class="add-to-cart">Adicionar ao Carrinho</button>
+    </div>
+    
+    <div class="card">
+        <img src="./img/1 (6).jpg" alt="Comida 1">
+        <p> Cupcake Lua de Caramelo Dourado</p>
+        <p class="card-price">$15.99</p>
+        <button class="add-to-cart">Adicionar ao Carrinho</button>
+    </div>
+    
+    <div class="card">
+        <img src="./img/1 (7).jpg" alt="Comida 1">
+        <p> Cupcake Éter de Amêndoa Crocante</p>
+        <p class="card-price">$15.99</p>
+        <button class="add-to-cart">Adicionar ao Carrinho</button>
+    </div>
+    
+    <div class="card">
+        <img src="./img/1 (8).jpg" alt="Comida 1">
+        <p> Cupcake Aurora de Framboesa</p>
+        <p class="card-price">$15.99</p>
+        <button class="add-to-cart">Adicionar ao Carrinho</button>
+    </div>
+    
+    <div class="card">
+        <img src="./img/1 (9).jpg" alt="Comida 1">
+        <p> Cupcake Sinfonia de Pistache</p>
+        <p class="card-price">$15.99</p>
+        <button class="add-to-cart">Adicionar ao Carrinho</button>
+    </div>
+    
+      
+
+       
     </section>
 
-    <footer>
-      <p>Feito por Nathállia Cabral - ElasEmTech - 2023</p>
+    <button class="floating-button">Dia de cupom! Aproveite</button>
+
+    <footer class="footer">
+        <p>Feito por Nathállia Cabral - ElasEmTech - 2023</p>
     </footer>
-  </body>
+</body>
 </html>
